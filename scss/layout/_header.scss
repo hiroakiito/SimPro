@@ -1,0 +1,21 @@
+.site-branding {
+    text-align: center;
+}
+.custom-logo {
+    width: 50%;
+}
+.main-navigation {
+  
+}
+.menu-toggle {
+  display: none;
+  @include mq() {
+    display: inline;
+  }
+}
+#header-navigation {
+  @include flex();
+  li {
+    width: 18%;
+  }
+}
